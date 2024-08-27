@@ -197,3 +197,20 @@ h1,h2,h3 {
 .boton:hover {
     cursor: pointer;
 }
+.cuadro {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    text-align: center; 
+    padding: 10px; 
+}
+
+.cuadro img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 200px; 
+    margin-bottom: 10px; 
+}
+
